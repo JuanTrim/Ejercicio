@@ -42,7 +42,7 @@ public class Ejercicio11 {
             
             switch(opc){
             case 1:
-            realizarSuma(leer);
+           System.out.println("LA Resta DE LOS NUMEROS ES: " + (num1 + num2));
             break;
             case 2:
             System.out.println("LA Resta DE LOS NUMEROS ES: " + (num1 - num2));
@@ -64,13 +64,5 @@ public class Ejercicio11 {
         
     }
 
-    public static void realizarSuma(Scanner leer){
-        
-        int num1 = leer.nextInt();
-        int num2 = leer.nextInt();
-        
-        
-        System.out.println(num1 + num2);
-        
-    }
+  
 }
