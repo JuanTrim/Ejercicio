@@ -11,12 +11,14 @@ public class Ejercicio9 {
         System.out.println("INGRESE EL NUM1");
         int num1 = leer.nextInt();
         System.out.println("INGRESE NUM2");
-        int num2; 
+        int num2 = leer.nextInt(); 
         int cont = 0;
+        int aux = num1;
         
         
-        while (num1 > num1-num2){
-            num1 = num1 - num2;
+        while (num1 >= num2){
+            aux = num1 - num2;
+            num1 = aux;
             cont++;
             
             
@@ -24,7 +26,7 @@ public class Ejercicio9 {
         }
         
         System.out.println("RESIDUO "  + num1 );
-        System.out.println("COCIENTE " + cont );
+        System.out.println("COCIENTE " + cont  );
         
        
         
